@@ -1,8 +1,8 @@
 "use client";
-import Image from "next/image";
 import React, { useEffect } from "react";
 import { Navbar } from "./components/navbar";
 import { Footer } from "./components/footer";
+import About from "./components/about";
 
 export default function Home() {
   useEffect(() => {
@@ -11,7 +11,6 @@ export default function Home() {
 
   return (
     <main>
-      <Navbar />
       <div
         className="h-screen max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 bg-cover overflow-hidden bg-bottom"
         style={{
@@ -27,7 +26,7 @@ export default function Home() {
           </h2>
         </div>
       </div>
-      <Footer />
+      <About />
     </main>
   );
 }
