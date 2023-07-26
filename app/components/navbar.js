@@ -15,7 +15,7 @@ export function Navbar() {
     setIsHomePage(window.location.pathname === "/");
   }, []);
 
-  const handleClick = () => {
+  const handleHomeClick = () => {
     if (isHomePage) {
       animateScroll.scrollToTop({ duration: 500 });
     } else {
@@ -32,7 +32,7 @@ export function Navbar() {
         <div className="flex flex-row items-center gap-5 mt-5 sm:justify-end sm:mt-0 sm:pl-5">
           <a
             className="font-medium text-gray-600  hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"
-            onClick={handleClick}
+            onClick={handleHomeClick}
             aria-current="page"
           >
             Home
