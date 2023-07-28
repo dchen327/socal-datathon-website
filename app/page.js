@@ -1,8 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
-import { Navbar } from "./components/navbar";
-import { Footer } from "./components/footer";
 import About from "./components/about";
+import FrequentlyAskedQuestions from "./components/faq";
 
 export default function Home() {
   useEffect(() => {
@@ -26,7 +25,10 @@ export default function Home() {
           </h2>
         </div>
       </div>
+
       <About />
+
+      <FrequentlyAskedQuestions />
     </main>
   );
 }

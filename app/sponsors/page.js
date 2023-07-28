@@ -2,13 +2,20 @@ export default function Sponsors() {
   return (
     <>
       {/* Blog Article */}
-      <div className=" px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
+      <div className="max-w-screen-xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
         {/* Content */}
         <div className="space-y-5 md:space-y-8">
           <div className="space-y-3">
             <h2 className="text-2xl font-bold md:text-3xl dark:text-white">
               Sponsors
             </h2>
+            <p className="text-lg text-gray-800 dark:text-gray-200">
+              The SoCal Data Championship is made possible by the generous
+              support of our corporate sponsors. Support enables us to provide
+              competitors with accommodations, travel, meals, and prize money.
+              To learn more about recruiting opportunities, prospective sponsors
+              are invited to reach out to our team at contact@socal-data.com.
+            </p>
             <>
               {/* Card Blog */}
               <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
